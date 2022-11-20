@@ -11,7 +11,7 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
       with: 
-        mdbook-version: '0.4.10'
+        mdbook-version: '0.4.23'
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         EXTERNAL_REPOSITORY: dentremor/dentremor.github.io
