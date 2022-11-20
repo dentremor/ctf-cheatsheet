@@ -1,9 +1,5 @@
 name: CI/CD
-on:
-  push:
-    paths:
-    - "src/**.md"
-    - "book.toml"
+on: push
 
 jobs:
   deploy:
